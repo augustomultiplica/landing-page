@@ -1,0 +1,1 @@
+Landing page: Plataforma de analítica que permite visualizar y analizar datos para tomar mejores decisiones y hacer crecer el negocio para empresas y equipos que necesitan monitorear métricas, clientes y rendimiento desde un solo lugar.

@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Untitled UI — Beautiful analytics to grow smarter</title>
+<meta name="description" content="Plataforma de analítica que permite visualizar y analizar datos para tomar mejores decisiones y hacer crecer el negocio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="brand" aria-label="Untitled UI — inicio">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Untitled UI</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link nav-link--chevron">Products <svg class="chevron" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="#" class="nav-link nav-link--chevron">Resources <svg class="chevron" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="#" class="nav-link">Pricing</a>
+    </nav>
+
+    <div class="header-right">
+      <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <span class="avatar avatar--sm" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#E5E5E5"/><circle cx="16" cy="13" r="5" fill="#A3A3A3"/><path d="M6 27C6 21.4772 10.4772 17 16 17C21.5228 17 26 21.4772 26 27" fill="#A3A3A3"/></svg>
+      </span>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navegación móvil">
+    <a href="#" class="mobile-nav-link">Home</a>
+    <a href="#" class="mobile-nav-link">Products</a>
+    <a href="#" class="mobile-nav-link">Resources</a>
+    <a href="#" class="mobile-nav-link">Pricing</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <a class="badge" href="#">
+        <span class="badge-dot" aria-hidden="true"></span>
+        <span class="badge-text"><strong>SaaS Talent</strong> — Now hiring analytics engineers</span>
+        <svg class="badge-arrow" viewBox="0 0 12 10" fill="none"><path d="M1 5H11M11 5L7 1M11 5L7 9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <h1 class="hero-heading">Beautiful analytics to grow smarter</h1>
+
+      <p class="hero-supporting">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+
+      <div class="cta-group">
+        <a href="#" class="btn btn-secondary">
+          <span class="btn-icon-circle" aria-hidden="true">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M5.5 3.5L11.5 8L5.5 12.5V3.5Z" fill="currentColor"/></svg>
+          </span>
+          Demo
+        </a>
+        <a href="#" class="btn btn-primary">Sign up</a>
+      </div>
+
+      <div class="hero-mockup-wrap">
+        <div class="hero-mockup" role="img" aria-label="Vista previa del dashboard de analítica">
+          <div class="dashboard">
+            <aside class="dashboard-sidebar">
+              <div class="dash-logo">
+                <span class="brand-mark brand-mark--sm" aria-hidden="true"></span>
+                <span class="dash-logo-text">Untitled</span>
+              </div>
+              <div class="dash-search">
+                <svg viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.25" stroke="currentColor" stroke-width="1.3"/><path d="M14 14L11 11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                <span>Search</span>
+              </div>
+              <nav class="dash-nav">
+                <span class="dash-nav-item dash-nav-item--active">
+                  <svg viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" fill="currentColor"/><rect x="9" y="2" width="5" height="5" rx="1" fill="currentColor" opacity=".5"/><rect x="2" y="9" width="5" height="5" rx="1" fill="currentColor" opacity=".5"/><rect x="9" y="9" width="5" height="5" rx="1" fill="currentColor"/></svg>
+                  Dashboard
+                </span>
+                <span class="dash-nav-item">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  Analytics
+                </span>
+                <span class="dash-nav-item">
+                  <svg viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.3"/></svg>
+                  Reports
+                </span>
+                <span class="dash-nav-item">
+                  <svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.3"/></svg>
+                  Customers
+                </span>
+                <span class="dash-nav-item">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M8 2L8 14M2 8L14 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                  Settings
+                </span>
+              </nav>
+            </aside>
+
+            <div class="dashboard-main">
+              <div class="dash-topbar">
+                <h2 class="dash-title">My dashboard</h2>
+                <div class="dash-controls">
+                  <span class="dash-chip">Last 30 days</span>
+                  <span class="dash-chip dash-chip--solid">+ Add widget</span>
+                </div>
+              </div>
+
+              <div class="kpi-row">
+                <div class="kpi-card">
+                  <span class="kpi-label">Total revenue</span>
+                  <span class="kpi-value">$48,890</span>
+                  <span class="kpi-delta kpi-delta--up">↑ 12.4%</span>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Active users</span>
+                  <span class="kpi-value">3,208</span>
+                  <span class="kpi-delta kpi-delta--up">↑ 8.1%</span>
+                </div>
+                <div class="kpi-card">
+                  <span class="kpi-label">Conversion rate</span>
+                  <span class="kpi-value">4.6%</span>
+                  <span class="kpi-delta kpi-delta--down">↓ 1.2%</span>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <div class="chart-card-head">
+                  <span class="chart-metric-label">Sessions over time</span>
+                  <span class="chart-metric-value">128,904</span>
+                </div>
+                <svg class="chart-svg" viewBox="0 0 620 160" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.18"/>
+                      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0,120 C40,110 60,60 100,70 C140,80 160,40 200,45 C240,50 260,90 300,85 C340,80 360,30 400,25 C440,20 460,60 500,55 C540,50 580,20 620,15 L620,160 L0,160 Z" fill="url(#chartFill)"/>
+                  <path d="M0,120 C40,110 60,60 100,70 C140,80 160,40 200,45 C240,50 260,90 300,85 C340,80 360,30 400,25 C440,20 460,60 500,55 C540,50 580,20 620,15" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <div class="chart-axis">
+                  <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span>
+                </div>
+              </div>
+
+              <div class="table-card">
+                <div class="table-row table-row--head">
+                  <span>Customer</span><span>Plan</span><span>Status</span><span>Amount</span>
+                </div>
+                <div class="table-row">
+                  <span class="table-user"><i class="table-avatar"></i>Olivia Rhye</span><span>Enterprise</span><span class="status-pill">Active</span><span>$980</span>
+                </div>
+                <div class="table-row">
+                  <span class="table-user"><i class="table-avatar"></i>Phoenix Baker</span><span>Growth</span><span class="status-pill">Active</span><span>$420</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOGOS DE CLIENTES ============ -->
+  <section class="logo-strip">
+    <div class="container">
+      <p class="logo-strip-text">Join 4,000+ companies already growing</p>
+      <ul class="logo-grid">
+        <li class="client-logo" style="--logo-color:#525252">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M10 1L18 6L10 11L2 6L10 1Z" fill="currentColor"/><path d="M2 10L10 15L18 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M2 14L10 19L18 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".5"/></svg>
+          <span>Layers</span>
+        </li>
+        <li class="client-logo" style="--logo-color:#16A34A">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M4 16L16 4M4 4L16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Sisyphus</span>
+        </li>
+        <li class="client-logo" style="--logo-color:#9333EA">
+          <svg viewBox="0 0 20 20" fill="none"><circle cx="7" cy="10" r="6" fill="currentColor" opacity=".55"/><circle cx="13" cy="10" r="6" fill="currentColor" opacity=".55"/></svg>
+          <span>Circooles</span>
+        </li>
+        <li class="client-logo" style="--logo-color:#0284C7">
+          <svg viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="7" height="7" rx="1.5" fill="currentColor"/><rect x="11" y="2" width="7" height="7" rx="1.5" fill="currentColor" opacity=".55"/><rect x="2" y="11" width="7" height="7" rx="1.5" fill="currentColor" opacity=".55"/><rect x="11" y="11" width="7" height="7" rx="1.5" fill="currentColor"/></svg>
+          <span>Catalog</span>
+        </li>
+        <li class="client-logo" style="--logo-color:#DC2626">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M10 2L12.2 7.6L18 8.4L13.6 12.2L14.9 18L10 14.9L5.1 18L6.4 12.2L2 8.4L7.8 7.6L10 2Z" fill="currentColor"/></svg>
+          <span>Quotient</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Features</span>
+        <h2 class="section-heading">Analytics that feels like it's from the future</h2>
+        <p class="section-description">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 8L10.9 13.3C11.56 13.74 12.44 13.74 13.1 13.3L21 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3 class="feature-title">Share team inboxes</h3>
+          <p class="feature-description">Whether you have 10 customers or 10,000, our shared team inboxes keep everyone on the same page.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14H11L10 22L20 9H13L13 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="feature-title">Deliver instant answers</h3>
+          <p class="feature-description">Automate your customer support with instant answers powered by real-time data and AI.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M12 20V4M20 20V14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="feature-title">Manage your team with reports</h3>
+          <p class="feature-description">Keep track of your team's productivity, engagement and satisfaction with detailed reports.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 11.5C21 16.75 16.75 21 12 21C10.5 21 9.1 20.63 7.87 19.98L3 21L4.35 16.61C3.5 15.28 3 13.7 3 12C3 6.75 7.25 2.5 12.5 2.5C17.75 2.5 21 6.25 21 11.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="feature-title">Connect with customers</h3>
+          <p class="feature-description">Have a natural conversation with your customers with our shared inbox and live chat.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="8" r="5" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="5" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3 class="feature-title">Connect the tools you already use</h3>
+          <p class="feature-description">Explore 100+ integrations that make your workflow feel less like work.</p>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 3 15 3 9.5C3 6.5 5.5 4.5 8 4.5C9.7 4.5 11 5.3 12 6.5C13 5.3 14.3 4.5 16 4.5C18.5 4.5 21 6.5 21 9.5C21 15 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="feature-title">Our people make the difference</h3>
+          <p class="feature-description">Our people are the heart of our company. We're always looking for new team members.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIAL ============ -->
+  <section class="testimonial">
+    <div class="container testimonial-inner">
+      <div class="testimonial-logo">
+        <svg viewBox="0 0 20 20" fill="none"><path d="M4 16L16 4M4 4L16 16" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Sisyphus</span>
+      </div>
+
+      <blockquote class="testimonial-quote">
+        “We’ve been using Untitled to kick start every new project and can’t imagine working without it.”
+      </blockquote>
+
+      <div class="testimonial-author">
+        <span class="avatar avatar--md" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#F3E8FF"/><circle cx="20" cy="16" r="6.5" fill="#C084FC"/><path d="M7 34C7 26.8 12.8 21 20 21C27.2 21 33 26.8 33 34" fill="#C084FC"/></svg>
+        </span>
+        <span class="testimonial-name">Candice Wu</span>
+        <span class="testimonial-role">Product Manager, Sisyphus</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT SHOWCASE ============ -->
+  <section class="showcase">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Features</span>
+        <h2 class="section-heading">Cutting-edge features for advanced analytics</h2>
+        <p class="section-description">Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+      </div>
+
+      <div class="showcase-visual">
+        <div class="showcase-desktop">
+          <div class="dashboard dashboard--compact">
+            <div class="dashboard-main">
+              <div class="dash-topbar">
+                <h2 class="dash-title">My dashboard</h2>
+                <span class="dash-chip dash-chip--solid">Export</span>
+              </div>
+              <div class="kpi-row">
+                <div class="kpi-card"><span class="kpi-label">Revenue</span><span class="kpi-value">$48,890</span><span class="kpi-delta kpi-delta--up">↑ 12.4%</span></div>
+                <div class="kpi-card"><span class="kpi-label">Sessions</span><span class="kpi-value">128,904</span><span class="kpi-delta kpi-delta--up">↑ 8.1%</span></div>
+                <div class="kpi-card"><span class="kpi-label">Bounce rate</span><span class="kpi-value">24.6%</span><span class="kpi-delta kpi-delta--down">↓ 1.2%</span></div>
+              </div>
+              <div class="chart-card">
+                <svg class="chart-svg" viewBox="0 0 620 140" preserveAspectRatio="none">
+                  <path d="M0,110 C60,90 120,50 200,60 C280,70 340,30 420,25 C480,20 560,45 620,15" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="table-card">
+                <div class="table-row table-row--head"><span>Customer</span><span>Plan</span><span>Status</span><span>Amount</span></div>
+                <div class="table-row"><span class="table-user"><i class="table-avatar"></i>Lana Steiner</span><span>Enterprise</span><span class="status-pill">Active</span><span>$980</span></div>
+                <div class="table-row"><span class="table-user"><i class="table-avatar"></i>Demi Wilkinson</span><span>Growth</span><span class="status-pill">Active</span><span>$420</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase-phone">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <div class="phone-header">My dashboard</div>
+              <div class="phone-kpi"><span>Revenue</span><strong>$48,890</strong></div>
+              <svg class="chart-svg" viewBox="0 0 200 70" preserveAspectRatio="none">
+                <path d="M0,55 C20,45 40,20 70,28 C100,36 120,15 150,12 C170,10 185,25 200,8" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+              <div class="phone-list">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-features">
+        <div class="showcase-feature">
+          <span class="feature-icon feature-icon--left">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 8L10.9 13.3C11.56 13.74 12.44 13.74 13.1 13.3L21 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3 class="feature-title">Share team inboxes</h3>
+          <p class="feature-description">Whether you have 10 customers or 10,000, our shared team inboxes keep everyone in sync.</p>
+          <a href="#" class="feature-link">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="showcase-feature">
+          <span class="feature-icon feature-icon--left">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14H11L10 22L20 9H13L13 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="feature-title">Deliver instant answers</h3>
+          <p class="feature-description">Automate your customer support with instant answers powered by real-time data.</p>
+          <a href="#" class="feature-link">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="showcase-feature">
+          <span class="feature-icon feature-icon--left">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M12 20V4M20 20V14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="feature-title">Manage your team with reports</h3>
+          <p class="feature-description">Keep track of your team's productivity and engagement with detailed reports.</p>
+          <a href="#" class="feature-link">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="container"><hr class="divider" /></div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container container--narrow">
+      <div class="section-intro">
+        <h2 class="section-heading">Frequently asked questions</h2>
+        <p class="section-description">Everything you need to know about the product and billing.</p>
+      </div>
+
+      <div class="accordion" data-accordion>
+        <div class="accordion-item is-open" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="true">
+            <span>Is there a free trial available?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you a free personalized onboarding call to get you up and running as soon as possible.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="false">
+            <span>Can I change my plan later?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>Of course. You can upgrade or downgrade your plan at any time from your account settings, and changes are prorated automatically.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="false">
+            <span>What is your cancellation policy?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>You can cancel your plan at any time with no penalties. Your access remains active until the end of your current billing cycle.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="false">
+            <span>Can other info be added to an invoice?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>Yes, you can add your company name, tax ID and billing address to every invoice from your billing settings page.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="false">
+            <span>How does billing work?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>Plans are billed monthly or annually in advance and are non-refundable. We accept all major credit cards and PayPal.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item" data-accordion-item>
+          <button class="accordion-trigger" type="button" aria-expanded="false">
+            <span>How do I change my account email?</span>
+            <span class="accordion-icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="none"><path d="M8 3.5V12.5M3.5 8H12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="accordion-panel">
+            <p>You can update your account email at any time from your profile settings. We’ll send a confirmation link to verify the new address.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SUPPORT CTA ============ -->
+  <section class="support-cta">
+    <div class="container">
+      <div class="support-card">
+        <div class="avatar-stack" aria-hidden="true">
+          <span class="avatar avatar--sm"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#FEE2E2"/><circle cx="16" cy="13" r="5" fill="#FCA5A5"/><path d="M6 27C6 21.4772 10.4772 17 16 17C21.5228 17 26 21.4772 26 27" fill="#FCA5A5"/></svg></span>
+          <span class="avatar avatar--sm"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#DBEAFE"/><circle cx="16" cy="13" r="5" fill="#93C5FD"/><path d="M6 27C6 21.4772 10.4772 17 16 17C21.5228 17 26 21.4772 26 27" fill="#93C5FD"/></svg></span>
+          <span class="avatar avatar--sm"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#DCFCE7"/><circle cx="16" cy="13" r="5" fill="#86EFAC"/><path d="M6 27C6 21.4772 10.4772 17 16 17C21.5228 17 26 21.4772 26 27" fill="#86EFAC"/></svg></span>
+        </div>
+        <h2 class="support-heading">Still have questions?</h2>
+        <p class="support-description">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+        <a href="#" class="btn btn-primary">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOCIAL PROOF / STATS ============ -->
+  <section class="stats">
+    <div class="container"><hr class="divider" /></div>
+    <div class="container stats-inner">
+      <div class="stats-copy">
+        <span class="eyebrow">Launch faster</span>
+        <h2 class="section-heading section-heading--left">Build something great</h2>
+        <p class="section-description section-description--left">We’ve done all the heavy lifting so you don’t have to — get all the data you need to launch and grow your business faster.</p>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat-number">4,000+</span>
+            <span class="stat-label">Global customers</span>
+            <span class="stat-description">Trusted by startups and enterprises worldwide.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">600%</span>
+            <span class="stat-label">Return on investment</span>
+            <span class="stat-description">Average ROI reported by our customers.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">10k</span>
+            <span class="stat-label">Global downloads</span>
+            <span class="stat-description">Across web and mobile platforms.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">200+</span>
+            <span class="stat-label">5-star reviews</span>
+            <span class="stat-description">From real customers on review platforms.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-photo" role="img" aria-label="Oficina moderna con grandes ventanas y luz natural">
+        <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#EFF6FF"/>
+              <stop offset="100%" stop-color="#DBEAFE"/>
+            </linearGradient>
+            <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#E9D5FF"/>
+              <stop offset="100%" stop-color="#D8B4FE"/>
+            </linearGradient>
+          </defs>
+          <rect width="400" height="300" fill="url(#skyGrad)"/>
+          <rect y="190" width="400" height="110" fill="url(#floorGrad)" opacity=".35"/>
+          <g stroke="#FFFFFF" stroke-width="6">
+            <line x1="70" y1="0" x2="70" y2="300"/>
+            <line x1="150" y1="0" x2="150" y2="300"/>
+            <line x1="230" y1="0" x2="230" y2="300"/>
+            <line x1="310" y1="0" x2="310" y2="300"/>
+          </g>
+          <g stroke="#FFFFFF" stroke-width="6">
+            <line x1="0" y1="80" x2="400" y2="80"/>
+            <line x1="0" y1="190" x2="400" y2="190"/>
+          </g>
+          <circle cx="330" cy="45" r="26" fill="#FDE68A" opacity=".8"/>
+          <rect x="30" y="200" width="60" height="90" rx="4" fill="#7E22CE" opacity=".55"/>
+          <rect x="180" y="230" width="90" height="60" rx="4" fill="#9333EA" opacity=".35"/>
+          <rect x="300" y="210" width="70" height="80" rx="4" fill="#6B21A8" opacity=".45"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2 class="section-heading">Start your free trial</h2>
+      <p class="section-description">Join over 4,000+ startups already growing with Untitled.</p>
+      <div class="cta-group">
+        <a href="#" class="btn btn-secondary">Learn more</a>
+        <a href="#" class="btn btn-primary">Get started</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h3 class="footer-col-title">Product</h3>
+        <ul>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Solutions <span class="badge-new">New</span></a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Releases</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-col-title">Company</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Media kit</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-col-title">Resources</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-col-title">Use cases</h3>
+        <ul>
+          <li><a href="#">Startups</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Government</a></li>
+          <li><a href="#">SaaS</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Ecommerce</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-col-title">Social</h3>
+        <ul>
+          <li><a href="#">X</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">AngelList</a></li>
+          <li><a href="#">Dribbble</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-col-title">Legal</h3>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Licenses</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="footer-bottom">
+      <a href="#" class="brand">
+        <span class="brand-mark brand-mark--sm" aria-hidden="true"></span>
+        <span class="brand-name">Untitled UI</span>
+      </a>
+      <p class="footer-copyright">© 2077 Untitled UI. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
