@@ -718,6 +718,27 @@ hr.divider { border: none; border-top: 1px solid var(--border-subtle); margin: 0
 .final-cta-inner { text-align: center; display: flex; flex-direction: column; align-items: center; }
 .final-cta .cta-group { margin-top: 28px; }
 
+/* Forms (waitlist + comentarios) */
+.feedback { padding: 96px 0; }
+.form { display: flex; flex-direction: column; gap: 16px; text-align: left; position: relative; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field-label { font-size: 14px; font-weight: 500; color: var(--gray-700); }
+.input {
+  width: 100%; font: inherit; font-size: 16px; color: var(--text-primary);
+  background: var(--white); border: 1px solid var(--gray-300); border-radius: var(--radius-md);
+  padding: 10px 14px; box-shadow: var(--shadow-xs);
+}
+.input::placeholder { color: var(--gray-400); }
+.input:focus { outline: none; border-color: var(--primary-500); box-shadow: 0 0 0 4px var(--primary-100); }
+.textarea { resize: vertical; min-height: 120px; }
+.form .btn { align-self: flex-start; cursor: pointer; }
+.form button:disabled { opacity: .6; cursor: not-allowed; }
+.form--inline { flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: 12px; margin-top: 28px; width: 100%; max-width: 480px; }
+.form--inline .input { flex: 1 1 260px; width: auto; }
+.form-status { flex-basis: 100%; min-height: 20px; margin: 0; font-size: 14px; color: var(--green-600); }
+.form-status.is-error { color: #DC2626; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
 /* =========================================================
    Footer
 ========================================================= */
@@ -772,7 +793,7 @@ hr.divider { border: none; border-top: 1px solid var(--border-subtle); margin: 0
   .hero-heading { font-size: 34px; }
   .hero-supporting { font-size: 16px; }
   .section-heading { font-size: 26px; }
-  .features, .testimonial, .showcase, .faq, .final-cta { padding-top: 64px; padding-bottom: 64px; }
+  .features, .testimonial, .showcase, .faq, .feedback, .final-cta { padding-top: 64px; padding-bottom: 64px; }
   .showcase { padding-top: 64px; }
   .support-cta { padding-bottom: 64px; }
   .site-footer { padding: 56px 0 32px; }

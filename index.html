@@ -66,7 +66,7 @@
           </span>
           Demo
         </a>
-        <a href="#" class="btn btn-primary">Sign up</a>
+        <a href="#waitlist" class="btn btn-primary">Sign up</a>
       </div>
 
       <div class="hero-mockup-wrap">
@@ -530,15 +530,41 @@
     </div>
   </section>
 
-  <!-- ============ FINAL CTA ============ -->
-  <section class="final-cta">
-    <div class="container final-cta-inner">
-      <h2 class="section-heading">Start your free trial</h2>
-      <p class="section-description">Join over 4,000+ startups already growing with Untitled.</p>
-      <div class="cta-group">
-        <a href="#" class="btn btn-secondary">Learn more</a>
-        <a href="#" class="btn btn-primary">Get started</a>
+  <!-- ============ FEEDBACK ============ -->
+  <section class="feedback" id="feedback">
+    <div class="container container--narrow">
+      <div class="section-intro">
+        <h2 class="section-heading">Cuéntanos qué piensas</h2>
+        <p class="section-description">Tus comentarios nos ayudan a construir un mejor producto.</p>
       </div>
+
+      <form class="form" data-supabase-table="feedback" novalidate>
+        <label class="field">
+          <span class="field-label">Email (opcional)</span>
+          <input class="input" type="email" name="email" maxlength="254" autocomplete="email" />
+        </label>
+        <label class="field">
+          <span class="field-label">Comentario</span>
+          <textarea class="input textarea" name="message" rows="5" maxlength="2000" required></textarea>
+        </label>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn-primary">Enviar comentario</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA / WAITLIST ============ -->
+  <section class="final-cta" id="waitlist">
+    <div class="container final-cta-inner">
+      <h2 class="section-heading">Únete a la waitlist</h2>
+      <p class="section-description">Sé de los primeros en probar Untitled. Te avisaremos cuando esté listo.</p>
+      <form class="form form--inline" data-supabase-table="signups" novalidate>
+        <input class="input" type="email" name="email" placeholder="tu@email.com" maxlength="254" autocomplete="email" aria-label="Email" required />
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn-primary">Unirme</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </section>
 </main>
@@ -627,6 +653,8 @@
   </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
+<script src="js/config.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
