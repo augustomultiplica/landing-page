@@ -2,14 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "landing-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-I",
-        "-c",
-        "import functools, http.server; h = functools.partial(http.server.SimpleHTTPRequestHandler, directory='/Users/augustomestanza/Documents/claude-code/prueba_2'); http.server.test(HandlerClass=h, port=4173, bind='127.0.0.1')"
-      ],
-      "port": 4173
+      "name": "next-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
     }
   ]
 }
